@@ -2,6 +2,7 @@ from kokosznicka import Kokosznicka
 import re
 import regex
 import unicodedata
+import os
 
 # Hipotezy badawcze:
 # 1. Samogłoska stanowi 40% rymowalności sylaby
@@ -287,15 +288,16 @@ spółgłoski = {
     },
 
 }
-
 # Pomocne rzeczy z Metrificale
-file_path = 'proparoksytona2.txt'
-proparoksytona = set(line.strip() for line in open(file_path, 'r', encoding='utf-8'))
+current_dir = os.path.dirname(os.path.abspath(__file__))
 
-oksytona_path = 'oksytona.txt'
+proparoksytona_path = os.path.join(current_dir, 'proparoksytona2.txt')
+proparoksytona = set(line.strip() for line in open(proparoksytona_path, 'r', encoding='utf-8'))
+
+oksytona_path = os.path.join(current_dir, 'oksytona.txt')
 oksytona = set(line.strip() for line in open(oksytona_path, 'r', encoding='utf-8'))
 
-false_path = 'false-friends.txt'
+false_path = os.path.join(current_dir, 'false-friends.txt')
 false_friends = set(line.strip() for line in open(false_path, 'r', encoding='utf-8'))
 
 proproparoksytona = {'libyśmy', 'libyście', 'łybyśmy' 'łybyście'}

@@ -10,6 +10,7 @@ setup(
   url = 'https://github.com/tytusdunin/araxne',
   download_url = 'https://github.com/tytusdunin/araxne/archive/refs/tags/0.0.2.tar.gz',
   keywords = ['nlp', 'rhyme detection', 'phonetics', 'polish'],
+  include_package_data=True,
   install_requires=['kokosznicka'],
 
   classifiers=[
