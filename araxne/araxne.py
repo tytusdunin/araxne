@@ -524,10 +524,10 @@ class Araxne:
         result = weighted_average(scorelist, weightlist)
         return result
 
-str1 = "rozprawiał"
-str2 = "chował"
+#str1 = "rozprawiał"
+#str2 = "chował"
 
-print(Araxne.compare(str1, str2))
+#print(Araxne.compare(str1, str2))
 
 # sprawa : rawa zwraca 100
 # ględzę : zrzędzę zwraca 93.5 (grupa : zupa tak samo)
