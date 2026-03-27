@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from araxne import Araxne
+from araxne.araxne import Araxne
 import string
 import statistics
 

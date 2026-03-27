@@ -362,7 +362,6 @@ class Araxne:
             string = string.replace("h", "ĥ")
             string = string.replace("ń", "ň")
             string = string.replace("ĵ", "") #POMYSŁ: można też wykorzystać do zmiękczania samogłosek
-            string = string.replace("~", "")
             #string = string.replace("ł", "") #POMYSŁ: trzeba to jakoś zagospodarować
             #string = string.replace("j", "") #POMYSŁ: trzeba to jakoś zagospodarować
             # Pamiętać o literach ścieśnionych
