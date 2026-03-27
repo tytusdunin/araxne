@@ -1,16 +1,21 @@
 from distutils.core import setup
+from setuptools import setup, find_packages
 setup(
   name = 'araxne',
   packages = ['araxne'],
-  version = '0.0.3',
+  version = '0.0.4',
   license='GPL-3.0',
   description = 'A simple algorithm for quantifying how much two strings rhyme in Polish.',
   author = 'Tytus Dunin',
   author_email = 'tm.dunin@student.uw.edu.pl',
   url = 'https://github.com/tytusdunin/araxne',
-  download_url = 'https://github.com/tytusdunin/araxne/archive/refs/tags/0.0.3.tar.gz',
+  download_url = 'https://github.com/tytusdunin/araxne/archive/refs/tags/0.0.4.tar.gz',
   keywords = ['nlp', 'rhyme detection', 'phonetics', 'polish'],
   include_package_data=True,
+  packages=find_packages(),
+  package_data={
+        'araxne': ['*.txt'],
+  },
   install_requires=['kokosznicka'],
 
   classifiers=[
