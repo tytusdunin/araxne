@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'araxne',
   packages = ['araxne'],
-  version = '0.0.1',
+  version = '0.0.2',
   license='GPL-3.0',
   description = 'A simple algorithm for quantifying how much two strings rhyme in Polish.',
   author = 'Tytus Dunin',
   author_email = 'tm.dunin@student.uw.edu.pl',
   url = 'https://github.com/tytusdunin/araxne',
-  download_url = 'https://github.com/tytusdunin/araxne/archive/refs/tags/0.0.1.tar.gz',
+  download_url = 'https://github.com/tytusdunin/araxne/archive/refs/tags/0.0.2.tar.gz',
   keywords = ['nlp', 'rhyme detection', 'phonetics', 'polish'],
   install_requires=['kokosznicka'],
 

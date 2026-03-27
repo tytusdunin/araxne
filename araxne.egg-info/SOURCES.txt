@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+araxne/__init__.py
+araxne/araxne.py
+araxne.egg-info/PKG-INFO
+araxne.egg-info/SOURCES.txt
+araxne.egg-info/dependency_links.txt
+araxne.egg-info/requires.txt
+araxne.egg-info/top_level.txt
