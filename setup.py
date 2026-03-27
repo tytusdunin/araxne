@@ -12,7 +12,6 @@ setup(
   download_url = 'https://github.com/tytusdunin/araxne/archive/refs/tags/0.0.4.tar.gz',
   keywords = ['nlp', 'rhyme detection', 'phonetics', 'polish'],
   include_package_data=True,
-  packages=find_packages(),
   package_data={
         'araxne': ['*.txt'],
   },
