@@ -1,9 +1,9 @@
 Metadata-Version: 2.1
 Name: araxne
-Version: 0.0.4
+Version: 0.0.5
 Summary: A simple algorithm for quantifying how much two strings rhyme in Polish.
 Home-page: https://github.com/tytusdunin/araxne
-Download-URL: https://github.com/tytusdunin/araxne/archive/refs/tags/0.0.4.tar.gz
+Download-URL: https://github.com/tytusdunin/araxne/archive/refs/tags/0.0.5.tar.gz
 Author: Tytus Dunin
 Author-email: tm.dunin@student.uw.edu.pl
 License: GPL-3.0

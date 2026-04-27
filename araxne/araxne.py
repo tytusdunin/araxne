@@ -365,7 +365,8 @@ class Araxne:
             string = string.replace("~", "")
             #string = string.replace("ł", "") #POMYSŁ: trzeba to jakoś zagospodarować
             #string = string.replace("j", "") #POMYSŁ: trzeba to jakoś zagospodarować
-            # Pamiętać o literach ścieśnionych
+            string = string.replace("é", "y")
+            string = string.replace("á", "a")
             string = string.replace(" ", "-").split("-")
             proparoksytoneza_koncowkowa = any(sprawdz_koniec(initial_word.lower(), koncowka) for koncowka in proparoksytona) and initial_word.lower() not in false_friends
             proproparoksytoneza_koncowkowa = any(sprawdz_koniec(initial_word.lower(), koncowka) for koncowka in proproparoksytona)
@@ -527,8 +528,8 @@ class Araxne:
         result = weighted_average(scorelist, weightlist)
         return result
 
-#str1 = "rozprawiał"
-#str2 = "chował"
+#str1 = "pieszczonéj"
+#str2 = "niszczonej"
 
 #print(Araxne.compare(str1, str2))
 
